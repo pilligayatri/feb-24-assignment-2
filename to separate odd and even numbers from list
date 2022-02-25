@@ -1,0 +1,11 @@
+x=input()
+l=x.split()
+o=[]
+e=[]
+for i in l:
+    i=int(i)
+    if i%2!=0:
+        o.append(i)
+    else:
+        e.append(i)
+print(o," ",e) 
